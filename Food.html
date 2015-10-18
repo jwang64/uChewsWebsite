@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>UChews</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
+	<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style = "background-color:white;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+					
+            </div>
+			
+				                <a class="navbar-brand" href="index.html"> <img src = "img/uChewsLogo.jpg" style = "color:black;" width = "100px"; height = "60px"></a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right"  style = "color:black;">
+                    <li <!class="hidden">
+                        <a href=index.html"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a style = "color:#FFA824;" href="SignUp.html">Sign Up</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a style = "color:#FFA824;" href="SignIn.html">Login</a>
+                    </li>
+					
+                    <li class="page-scroll">
+                        <a style = "color:#FFA824;" href="Food.html">Food</a>
+                    </li>
+					
+					<li class = "page-scroll">
+						<a style = "color:#FFA824;" href =UploadOwn2.html> Upload</a>
+					</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+	<header id = "FoodHeader">
+        <div class="container">
+            <div class="row">
+       
+            </div>
+        </div>
+    </header>
+	
+	<div id = "Rating" style = "color:gray;">
+		<table>
+			<tr>
+				<td>
+					<img src = "img/Steak.jpg" width = "30%" height = "40%" style = "margin-left: 5%; float: left;" hspace = "20px"align= "left">
+					<img src = "img/FiveStars.jpg" style ="margin-left: 16%;" style = "margin-right: 22%;">
+					<div>
+						<p style = "font-size: 18px; margin-right: 5%;">This juicy steak was tenderized through a honey marinade and garnished with a carrots and soybean. Despite the large portion, you will be craving more. It will also come with a side of fries that possess the ideal amount of crunchiness.</p> 
+						<p style = "font-size: 18px; margin-right:5%;">Ingredients: Steak, Soybeans, Carrots, Potatoes</p>
+							<p style = "font-size: 18px; text-indent:0%; margin-right: 5%;" >Dietary Restrictions: Gluten-Free, Peanut-Free</p>
+					
+					
+					</div>
+				</td>
+				
+
+			</tr>
+			<tr>
+				<td>
+					<p style= "float: left; margin-left: 15%; font-size:19px;">Dish: Steak</p>
+					<p style = "font-size: 12px; margin-left: 35%;">Tags: #American #Steak #Peanut-Free #Gluten-Free #Delicious #Marinated #Honey #Beef #Meat </p>
+					
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			
+			<tr style = "">
+				<td style = "border-width:0px; padding: 0px;">
+					<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" id = "Interested"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-left: 3.5%; border:0px; background-color:#FFA824; color:white;">I'm Interested!</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+		
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body" style = " border: 5px; border-style: solid; border-color: orange; ">
+									<p style = "color:#FFA824;">Contact Information:</p>
+									<p style = "color:#FFA824;">Gordon Ramsay</p>
+									<p style = "color:#FFA824;"><1-234-567-890</p>
+									<p style = "color:#FFA824;">GordonRamsay123@gmail.com</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-default" style = "margin-right: 42%; background-color:#FFA824; border-color: #FFA824;"data-dismiss="modal">Close</button>
+								</div>
+							</div>
+      
+						</div>
+						</div>	</div>
+
+					
+				</td>
+				<td>
+					<p></p>
+				</td>
+			</tr>
+		</table>
+		
+		<table style = "margin-top:35px;">
+			<tr>
+				<td>
+					<img src = "img/Sushi.jpg" width = "30%" height = "60%" style = "margin-left: 5%; float: left; margin-top: 0%;" hspace = "20px"align= "left">
+					<img src = "img/FiveStars.jpg" style ="margin-left: 16%;" style = "margin-right: 22%; margin-top:35px;" >
+					<div>
+						<p style = "font-size: 18px; margin-right: 5%;">I AM NOT GIVING AWAY ALL OF MY SUSHI. I am using segments of 12 to trade. Just let me know what pieces you want, and I can put it in a box for you</p> 
+						<p style = "font-size: 18px; margin-right:5%;">Ingredients: Seaweed, Rice, Avocado, Salmon, Shrimp, Caviar, A LOT</p>
+							<p style = "font-size: 18px; text-indent:0%; margin-right: 5%;" >Dietary Restrictions: Gluten-Free, Peanut-Free</p>
+					
+					
+					</div>
+				</td>
+				
+
+			</tr>
+			<tr>
+				<td>
+					<p style= "float: left; margin-left: 15%; font-size:19px;">Dish: Sushi</p>
+					<p style = "font-size: 12px; margin-left: 35%;">Tags: #Asian #Japanese #SoGood #MasterChef #SushiMaster #AncientArt #Delicious #YumYum #Kawaii </p>
+					
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			
+			<tr style = "">
+				<td style = "border-width:0px; padding: 0px;">
+					<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" id = "Interested"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-left: 3.5%; border:0px; background-color:#FFA824; color:white;
+						">I'm Interested!</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+		
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body" style = " border: 5px; border-style: solid; border-color: orange; ">
+									<p style = "color:#FFA824;">Contact Information:</p>
+									<p style = "color:#FFA824;">Gordon Ramsay</p>
+									<p style = "color:#FFA824;"><1-234-567-890</p>
+									<p style = "color:#FFA824;">GordonRamsay123@gmail.com</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-default" style = "margin-right: 42%; background-color:#FFA824; border-color: #FFA824;"data-dismiss="modal">Close</button>
+								</div>
+							</div>
+      
+						</div>
+						</div>	</div>
+
+				</td>
+				<td>
+					<p></p>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<table style = "margin-top:35px;">
+			<tr>
+				<td>
+					<img src = "img/Pasta.jpg" width = "30%" height = "60%" style = "margin-left: 5%; float: left; margin-top: 0%;" hspace = "20px"align= "left">
+					<img src = "img/FiveStars.jpg" style ="margin-left: 16%;" style = "margin-right: 22%; margin-top:35px;" >
+					<div>
+						<p style = "font-size: 18px; margin-right: 5%;">When my mom came over, she made a lot of pasta. I've been eatting for the past few days. It's really good, but I would like some variety. If you want to exchange foods let me know.</p> 
+						<p style = "font-size: 18px; margin-right:5%;">Ingredients: Pasta, Cajun Chicken, Alfredo Sauce, Rosemary</p>
+							<p style = "font-size: 18px; text-indent:0%; margin-right: 5%;" >Dietary Restrictions: Peanut-Free</p>
+					
+					
+					</div>
+				</td>
+				
+
+			</tr>
+			<tr>
+				<td>
+					<p style= "float: left; margin-left: 15%; font-size:19px;">Dish: Pasta</p>
+					<p style = "font-size: 12px; margin-left: 35%;">#Italian #Pasta #MomsCooking #AlfredoSauce #Cajun #CajunChicken #Chicken #Mediterrean #Good </p>
+					
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			
+			<tr style = "">
+				<td style = "border-width:0px; padding: 0px;">
+						<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" id = "Interested"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-left: 3.5%; border:0px; background-color:#FFA824; color:white;
+						">I'm Interested!</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+		
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body" style = " border: 5px; border-style: solid; border-color: orange; ">
+									<p style = "color:#FFA824;">Contact Information:</p>
+									<p style = "color:#FFA824;">Gordon Ramsay</p>
+									<p style = "color:#FFA824;"><1-234-567-890</p>
+									<p style = "color:#FFA824;">GordonRamsay123@gmail.com</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-default" style = "margin-right: 42%; background-color:#FFA824; border-color: #FFA824;"data-dismiss="modal">Close</button>
+								</div>
+							</div>
+      
+						</div>
+						</div>	</div>
+
+				</td>
+				<td>
+					<p></p>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<table style = "margin-top:35px;">
+			<tr>
+				<td>
+					<img src = "img/Dumpling.jpg" width = "30%" height = "10%" style = "margin-left: 5%; float: left; margin-top: 0%;" hspace = "20px"align= "left">
+					<img src = "img/FiveStars.jpg" style ="margin-left: 16%;" style = "margin-right: 22%; margin-top:35px;" >
+					<div>
+						<p style = "font-size: 18px; margin-right: 5%;">Made lots of dumplings. Willing to share them. If you're interested I can also give you some of my special soy sauce, but you need to bring your own sauce tray</p> 
+						<p style = "font-size: 18px; margin-right:5%;">Ingredients: Pork, Ginger, Lotus, Green Onion, Chicken</p>
+							<p style = "font-size: 18px; text-indent:0%; margin-right: 5%;" >Dietary Restrictions: Peanut-Free</p>
+					
+					
+					</div>
+				</td>
+				
+
+			</tr>
+			<tr>
+				<td>
+					<p style= "float: left; margin-left: 13%; font-size:19px;">Dish: Dumplings</p>
+					<p style = "font-size: 12px; margin-left: 35%;">Tags: #Asian #Chinese #SecretRecipe #Meat #SoySauce #Dumplings #Dumpling </p>
+					
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			
+			<tr style = "">
+				<td style = "border-width:0px; padding: 0px;">
+						<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" id = "Interested"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-left: 3.5%; border:0px; background-color:#FFA824; color:white;
+						">I'm Interested!</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+		
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body" style = " border: 5px; border-style: solid; border-color: orange; ">
+									<p style = "color:#FFA824;">Contact Information:</p>
+									<p style = "color:#FFA824;">Gordon Ramsay</p>
+									<p style = "color:#FFA824;"><1-234-567-890</p>
+									<p style = "color:#FFA824;">GordonRamsay123@gmail.com</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-default" style = "margin-right: 42%; background-color:#FFA824; border-color: #FFA824;"data-dismiss="modal">Close</button>
+								</div>
+							</div>
+      
+						</div>
+						</div>	</div>
+
+				</td>
+				<td>
+					<p></p>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<table style = "margin-top:35px;">
+			<tr>
+				<td>
+					<img src = "img/Taco.jpg" width = "30%" height = "60%" style = "margin-left: 5%; float: left; margin-top: 0%;" hspace = "20px"align= "left">
+					<img src = "img/FiveStars.jpg" style ="margin-left: 16%;" style = "margin-right: 22%; margin-top:35px;" >
+					<div>
+						<p style = "font-size: 18px; margin-right: 5%;">Yo I made some good tacos. It was really fun to make them, but I'm assuming that I'll get sick of eating it everyday. Send me a message if you want some good tacos</p> 
+						<p style = "font-size: 18px; margin-right:5%;">Ingredients: Tortilla Shell, Taco Meat, Cheese</p>
+							<p style = "font-size: 18px; text-indent:0%; margin-right: 5%;" >Dietary Restrictions:Peanut-Free</p>
+					
+					
+					</div>
+				</td>
+				
+
+			</tr>
+			<tr>
+				<td>
+					<p style= "float: left; margin-left: 15%; font-size:19px;">Dish: Taco</p>
+					<p style = "font-size: 12px; margin-left: 35%;">Tags: #Mexican #Taco #BetterThanTacoBell #MeatAndCheeseTaco #LotsOfFood</p>
+					
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			
+			<tr style = "">
+				<td style = "border-width:0px; padding: 0px;">
+						<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" id = "Interested"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-left: 3.5%; border:0px; background-color:#FFA824; color: white;
+						">I'm Interested!</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+		
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body" style = " border: 5px; border-style: solid; border-color: orange; ">
+									<p style = "color:#FFA824;">Contact Information:</p>
+									<p style = "color:#FFA824;">Gordon Ramsay</p>
+									<p style = "color:#FFA824;"><1-234-567-890</p>
+									<p style = "color:#FFA824;">GordonRamsay123@gmail.com</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-default" style = "margin-right: 42%; background-color:#FFA824; border-color: #FFA824;"data-dismiss="modal">Close</button>
+								</div>
+							</div>
+      
+						</div>
+						</div>	</div>
+
+				</td>
+				<td>
+					<p></p>
+				</td>
+			</tr>
+		</table>
+	</div>
+		
+	</div>
+</body>
+
+</html>

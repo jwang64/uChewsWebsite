@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>UChews</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
+	<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<header id = "FoodHeader">
+        <div class="container">
+            <div class="row">
+       
+            </div>
+        </div>
+    </header>
+	
+
+<body style= "background-color: #FFA824">
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">UChews</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li <!class="hidden">>
+                        <a href="index.html"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Register</a>
+                    </li>
+					
+					<li class="page-scroll">
+                        <a href="#portfolio">Login</a>
+                    </li>
+					
+                    <li class="page-scroll">
+                        <a href="Food.html">Food</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+					<li class = "page-scroll">
+						<a href =UploadOwn.html> Upload</a>
+					</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+	<div style = "width:100%;">
+		<div style = "float:left; width:20%">
+			<table>
+				<tr>
+					<td>
+						<span>Upload</span>
+					</td>
+					<td>
+						<input type="file" class="upload" />
+					
+					</td>
+				</tr>
+			</table>
+		
+			<form>
+  <label for="company">
+    <span>Company Name</span>
+    <input type="text" id="company" />
+  </label>
+  <label for="contact">
+    <span>Contact Name</span>
+    <input type="text" id="contact" />
+  </label>
+</form>
+			
+			<form>
+				<div>
+					<table>
+						<tr style = "margin-left: 50px;">
+							<td style = "position:absolute;">
+								Dish Name
+							</td>
+							<td>
+								<br>
+								<input type="text" name="Dish Name"
+								<br>
+							</td>
+						</tr>
+					<table>
+				</div>
+			</form>
+			
+			<form>
+				
+				<table>
+					<tr>
+						<td>
+							Name
+						</td>
+						<td>
+							<br>
+							<input type ="text" name ="Name"
+							<br>
+						</td>
+					</tr>
+				<table>
+			</form>
+			
+			<form>
+				<table>
+					<tr>
+						<td>
+							Phone Number
+						</td>
+						<td>
+							<br>
+							<input type ="text" name ="Phone Number"
+							<br>
+						</td>
+					</tr>
+				</table>
+			</form>
+			
+			<form>
+				<table>
+					<tr>
+						<td>
+							Email
+						</td>
+						<td>
+							<br>
+							<input type ="text" name ="Email"
+							<br>
+						</td>
+					</tr>
+				</table>
+				
+			</form>
+			
+		</div>
+	
+		<div style = "float:right; width: 80%;">
+		
+			<form>
+				<table>
+					<tr>
+						<td>
+							Description
+						</td>
+						<td>
+							<br>
+							<input type="text" name= "Description" style = "width: 20%; height: 200px; " align = "right"/>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</form>
+	
+			<form>
+				<table>
+					<tr>
+						<td>
+							Ingredients:
+						</td>
+						<td>
+							<br>
+							<input type = "text" name = "Ingredients" style ="width: 20%; height: 200px;" />
+							<br>	
+						</td>
+					</tr>
+				</table>
+			</form>
+	
+			<form>
+				<input type="radio" name = "Allergen" value = "Gluten" > Gluten
+				<br>
+				<input type="radio" name = "Allergen" value = "Peanut" > Peanut
+				<br>
+				<input type="radio" name = "Allergen" value = "Soy" > Soy
+				<br>
+				<input type="radio" name = "Allergen" value = "Peanut" > Seafood
+				<br>
+				<br>
+			</form>
+		</div>
+	
+	
+	<input type ="submit" value = "Submit">
+	</div>
+</body>
+</html>
